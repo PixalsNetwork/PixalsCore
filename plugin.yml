@@ -1,0 +1,42 @@
+name: PixalsCore
+main: PixalsCore\Pixals
+author: oPinqz
+api: 5.0.0
+version: 9.0.0
+
+depend: StarGate-Atlantis
+
+commands:
+  spectate:
+   description: Pixals Spectate System
+   permission: pixals.staff
+  unspectate:
+   description: Pixals UnSpectate System
+   permission: pixals.staff
+  reload:
+   description: Pixals Reload Server System
+   permission: pixals.devteam
+  rank:
+   description: Pixals Commands For Tebex Integration
+   permission: pixals.admin
+  tags:
+   description: Pixals Commands For Tebex Integration
+   permission: pixals.admin
+  ppermissions:
+   description: Pixals Commands For Tebex Integration
+   permission: pixals.admin
+  meow:
+   description: Cat
+   permission: pixals.admin
+
+   
+permissions:
+  pixals.staff:
+    default: op 
+    description: Staff Permissions
+  pixals.devteam:
+    default: op
+  pixals.admin:
+    default: op
+  pixals.cape20.permission:
+    default: true

@@ -1,0 +1,27 @@
+{
+    "name": "opinqz/pixalscore",
+    "require": {
+        "sof3/await-generator": "^3.6",
+        "opinqz/libskin_composer": "dev-master",
+        "pixalsver/camera-api": "dev-main",
+        "muqsit/simple-packet-handler": "^0.1.4",
+        "dktapps/pmforms": "^2.2",
+        "pixalsnetwork/skinlib": "dev-master",
+        "cooldogedev/libsql": "^0.2.6",
+        "pixals/atlas": "@dev",
+        "opinqzz/databasemanager": "dev-main",
+        "opinqzz/advancedcommands": "dev-main"
+    },
+    "authors": [
+        {
+            "name": "oPinqzz"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {"classmap": ["src"]},
+    "version": "6.0.0"
+}
